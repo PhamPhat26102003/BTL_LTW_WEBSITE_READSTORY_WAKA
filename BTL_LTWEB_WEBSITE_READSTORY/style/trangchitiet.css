@@ -1,0 +1,206 @@
+﻿body {
+    font-family: "Netflix Sans";
+    /* background-color: var(--background); */
+    color: var(--white);
+    background: rgb(12, 113, 87);
+    background: linear-gradient(90deg, rgba(12, 113, 87, 1) 0%, rgba(0, 5, 5, 1) 67%);
+}
+
+section.detail {
+    display: flex;
+    gap: 90px;
+    margin-top: 150px;
+    margin-left: 10%;
+}
+
+.detail__image {
+    width: 20%;
+}
+
+    .detail__image img {
+        border-radius: 10px;
+        width: 300px;
+        height: 500px;
+    }
+
+p.detail__content-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.detail__content-star img {
+    width: 15px;
+}
+
+span.detail__content-star--title {
+    margin-left: 2rem;
+}
+
+.detail___booksInfo {
+    border-bottom: 1px solid gray;
+    margin-top: 4%;
+}
+
+.detail___booksInfo-top {
+    display: flex;
+    line-height: 1.5;
+    gap: 100px;
+}
+
+.detail___booksInfo-bottom {
+    display: flex;
+    line-height: 1.5;
+    gap: 152px;
+}
+
+.detail__action {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.detail__read {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 5%;
+}
+
+.detail__action--button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: #808080a1;
+    height: 40px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.detail__read-btn img {
+    width: 30px;
+}
+
+button.detail__read-btn {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding: 5px;
+    justify-content: center;
+    gap: 10px;
+    background: var(--green);
+    border-color: var(--green);
+    color: white;
+}
+
+.detail__read-icon {
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 100%;
+    background: #808080a1;
+    border: 0.3px solid;
+}
+
+.detail__comment-title {
+    margin-top: 10%;
+}
+
+.detail__comment-title--sub {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 5%;
+    border-bottom: 1px solid;
+}
+
+    .detail__comment-title--sub p {
+        margin-bottom: 10px;
+    }
+
+.detail__comment-body {
+    margin-top: 20px;
+    background: #80808029;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.detail__comment-body--title {
+    display: flex;
+    align-items: center;
+    gap: 50%;
+}
+
+    .detail__comment-body--title p img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    .detail__comment-body--title p {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+.detail__comment-body--content article {
+    margin-top: 20px;
+    padding: 20px;
+    background: #8080805c;
+    border-radius: 10px;
+    color: gray;
+    font-weight: 600;
+}
+
+.comment__reply {
+    margin-top: 10%;
+    background: #8080805c;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comment__reply--title {
+    display: flex;
+    align-items: center;
+    gap: 35%;
+}
+
+    .comment__reply--title p {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .comment__reply--title img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+
+button.btn__watchmore {
+    font-size: 17px;
+    background: none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    width: 150px;
+    margin-top: 20px;
+}
+
+p.bonus__title {
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 5%;
+}
