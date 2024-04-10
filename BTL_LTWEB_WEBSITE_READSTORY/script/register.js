@@ -1,9 +1,21 @@
-﻿function checkTT() {
+﻿
+function checkPassword() {
+    var password = document.getElementById('password').value;
+    //Kiem tra it nhat 1 chu hoa
+    var containUpercase = /[A-Z]/.test(password);
+
+    //Kiem tra ky tu dac biet
+    var containSpecialChar = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/.test(password);
+    return containUpercase && containSpecialChar;
+}
+
+function checkTT() {
     var user = document.getElementById('username').value;
     var pass1 = document.getElementById('password').value;
     var pass2 = document.getElementById('repeatPass').value;
     var gmail = document.getElementById('email').value;
     var checkmail = gmail.length - "@gmail.com".length;
+
     if (user == "") {
         alert("Vui lòng nhập tài khoản!");
         document.getElementById('username').focus();
@@ -17,6 +29,9 @@
     if (pass1 == "") {
         alert("Vui lòng nhập mật khẩu!");
         document.getElementById('password').focus();
+        if (!checkPassword) {
+            alert("Mật khẩu phải có ít nhất 1 chữ hoa và 1 ký tự đặc biệt!!");
+        }
         return false;
     }
     if (pass2 == "") {

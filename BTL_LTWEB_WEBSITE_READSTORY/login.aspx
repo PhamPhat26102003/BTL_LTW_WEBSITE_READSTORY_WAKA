@@ -51,7 +51,7 @@
              <a href ="login.aspx">Đăng Nhập</a>
          </div>
         <h3>Đăng nhập</h3>
-        <div class="error" id="error" runat="server"></div>
+        <div class="error" id="error" runat="server" style="color: red"></div>
         <label for="username">Nhập tên tài khoản</label>
         <input type="text" placeholder="Tên tài khoản" id="username" name="username" runat="server">
 

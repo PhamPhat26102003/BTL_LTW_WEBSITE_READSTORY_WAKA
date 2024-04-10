@@ -126,6 +126,8 @@ namespace BTL_LTWEB_WEBSITE_READSTORY
 
                     ListPage.DataSource = listPage;
                     ListPage.DataBind();
+                    result.InnerHtml = "";
+                    count.InnerHtml = "";
                     break;
             }
         }
@@ -164,7 +166,7 @@ namespace BTL_LTWEB_WEBSITE_READSTORY
                 }
                 ListPage.DataSource = listStoryOngoing;
                 ListPage.DataBind();
-                result.InnerHtml = "Kết quả tìm kiếm cho trangjk thái 'Đang ra' ";
+                result.InnerHtml = "Kết quả tìm kiếm cho trạng thái 'Đang ra' ";
                 count.InnerHtml = "Tìm được 8 kết quả";
             }
 

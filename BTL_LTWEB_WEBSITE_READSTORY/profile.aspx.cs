@@ -39,6 +39,12 @@ namespace BTL_LTWEB_WEBSITE_READSTORY
                 Password.InnerHtml = pass;
                 Profiles.Text = user.Substring(0, 1);
             }
+            else
+            {
+                Username.InnerHtml = "";
+                Email.InnerHtml = "";
+                Password.InnerHtml = "";
+            }
 
             //Get list category
             List<category> categories = (List<category>)Application["listCategory"];

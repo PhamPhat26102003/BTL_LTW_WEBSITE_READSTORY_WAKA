@@ -1,6 +1,5 @@
 ﻿body {
     font-family: "Netflix Sans";
-    /* background-color: var(--background); */
     color: var(--white);
     background: rgb(12, 113, 87);
     background: linear-gradient(90deg, rgba(12, 113, 87, 1) 0%, rgba(0, 5, 5, 1) 67%);
